@@ -36,12 +36,13 @@ $grayish-blue: hsl(229, 6%, 66%);
 $very-light-gray: hsl(0, 0%, 98%);
 
 body {
-    font-family: 'Poppins', sans-serif;
+  background-color: $very-light-gray;
+  font-family: 'Poppins', sans-serif;
 }
 
 header {
     text-align: center;
-    max-width: 550px;
+    max-width: 500px;
     margin: 0 auto;
 
     h1 {

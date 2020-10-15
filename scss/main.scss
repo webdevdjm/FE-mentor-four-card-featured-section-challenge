@@ -41,20 +41,37 @@ body {
 }
 
 header {
-    text-align: center;
-    max-width: 500px;
-    margin: 0 auto;
+  text-align: center;
+  max-width: 380px;
+  margin: 100px auto;
 
-    h1 {
-      font-weight: 200;
-    }
-    h2 {
-      font-size: 2rem;
-      font-weight: 600;
-    }
-    p.lead {
-      color: $very-dark-blue;
-      font-size: 1.2rem;
-      line-height: 1.4;
-    }
+  h1 {
+    font-weight: 200;
+  }
+  h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  p.lead {
+    margin-top: 1em;
+    color: $grayish-blue;
+    font-size: 1.1rem;
+    line-height: 1.4;
+  }
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1120px;
+  margin: 0 auto;
+
+  .card {
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05), 0 6px 6px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    padding: 30px;
+    width: 350px;
+    margin: 30px;
+  }
 }

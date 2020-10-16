@@ -74,6 +74,17 @@ main {
     padding: 30px;
     width: 350px;
     margin: 15px;
+    position: relative;
+    overflow: hidden;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 5px;
+      width: 100%;
+    }
 
     h3 {
       font-weight: 600;
@@ -82,6 +93,25 @@ main {
 
     .card-text {
       color: $grayish-blue;
+      margin: 10px 0 30px;
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
     }
   }
+    .card-cyan::after {
+      background-color: $cyan;
+    }
+    .card-red::after {
+      background-color: $red;
+    }
+    .card-orange::after {
+      background-color: $orange;
+    }
+    .card-blue::after {
+      background-color: $blue;
+    }
+
 }

@@ -38,7 +38,6 @@ $very-light-gray: hsl(0, 0%, 98%);
 body {
   background-color: $very-light-gray;
   font-family: 'Poppins', sans-serif;
-  
 }
 
 header {
@@ -101,17 +100,37 @@ main {
       margin-left: auto;
     }
   }
-    .card-cyan::after {
-      background-color: $cyan;
-    }
-    .card-red::after {
-      background-color: $red;
-    }
-    .card-orange::after {
-      background-color: $orange;
-    }
-    .card-blue::after {
-      background-color: $blue;
-    }
+  .card-align {
+    transform: translateY(50%);
+  }
+  .card-cyan::after {
+    background-color: $cyan;
+  }
+  .card-red::after {
+    background-color: $red;
+  }
+  .card-orange::after {
+    background-color: $orange;
+  }
+  .card-blue::after {
+    background-color: $blue;
+  }
+}
 
+footer {
+  padding: 1em 0;
+
+  p {
+    text-align: center;
+    color: $very-dark-blue;
+    font-size: 0.8rem;
+  }
+  a {
+    text-decoration: none;
+    color: $very-dark-blue;
+
+    &:hover {
+      color: #000;
+    }
+  }
 }

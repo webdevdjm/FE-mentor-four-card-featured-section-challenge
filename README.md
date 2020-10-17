@@ -1,3 +1,7 @@
+## Frontend Mentor Challenge 
+[Link to live site](https://fe-mentor-four-card-featured-section-challenge.vercel.app/)
+### Built using SASS and a mobile first approach. Only one simple media query needed
+
 # Frontend Mentor - Four card feature section
 
 ![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
